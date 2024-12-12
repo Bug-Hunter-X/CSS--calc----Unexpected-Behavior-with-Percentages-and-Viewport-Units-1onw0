@@ -1,0 +1,7 @@
+Instead of directly using percentages with viewport units, consider using alternative approaches, such as:
+
+1. **Using only viewport units:** If possible, replace percentages with viewport units (`vw`, `vh`, `vmin`, `vmax`) to ensure consistent behavior across different screen sizes.
+
+2. **Separate calculations:** Break down the calculation into separate steps. Compute the percentage value beforehand and store it in a CSS variable, then use that variable in `calc()`. 
+
+3. **JavaScript solution:** If complex calculations are required, use JavaScript to dynamically calculate values and apply them as inline styles or using CSS custom properties.
